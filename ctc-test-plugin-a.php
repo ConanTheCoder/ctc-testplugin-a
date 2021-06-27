@@ -1,8 +1,4 @@
-/**
- * Plugin Name: Test-Plugin A
- * Description: A simple plugin to test the functionality of the PluginManager
- */
- <?php
+<?php
 add_shortcode('test_plugin_a', 'test_plugin_a_dothing');
 function test_plugin_a_init() {
   function test_plugin_a_dothing() {
